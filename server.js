@@ -2,6 +2,8 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const port =  3000;
+const cors = require('cors')
+app.use(cors({ origin: true, credentials: true }));
 
 // Serve JSON-LD data
 app.get('/blog', (req, res) => {
