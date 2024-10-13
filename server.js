@@ -16,7 +16,7 @@ app.get('/testimonial', (req, res) => {
   res.sendFile(path.join(__dirname, 'data', 'testimonial.jsonld'));
 });
 
-app.get('/about', (req, res) => {
+app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'data', 'about.jsonld'));
 });
 
