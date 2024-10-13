@@ -1,0 +1,9 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Our Company",
+    "url": "http://ourcompany.com",
+    "logo": "http://ourcompany.com/logo.png",
+    "description": "We are dedicated to providing the best service."
+  }
+  

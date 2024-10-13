@@ -1,0 +1,14 @@
+{
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": "Software Engineer",
+    "description": "We are looking for a software engineer with experience in Node.js.",
+    "datePosted": "2024-10-05",
+    "validThrough": "2024-11-05",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Tech Company",
+      "sameAs": "http://techcompany.com"
+    }
+  }
+  
